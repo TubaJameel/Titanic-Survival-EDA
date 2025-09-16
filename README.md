@@ -26,22 +26,36 @@ This project performs an exploratory data analysis (EDA) on the Titanic dataset 
 - Used `describe()` to summarize central tendencies, spread, and shape of the dataset's distribution.
 ### 4. Visualization (in notebook)
 - Bar plot and correlation analysis to explore survival trends across different groups.
+### 5. Model Training
+- Split dataset into training and testing sets.
+- Trained a Logistic Regression model on training data.
+### 6. Model Evaluation
+- Evaluated using ROC Curve and AUC score.
+- Visualized logistic function and survival probability curves.
 
 ## 🛠️ Tools & Libraries
 - Python
 - Pandas
 - Seaborn
 - Matplotlib
+- Scikit-learn
+- NumPy
 - Jupyter Notebook
 ## 🔍 Key Insights
 - Women had a higher survival rate than men.
 - Passengers in higher classes (1st class) had better chances of survival.
 - Children and younger passengers had relatively better survival odds.
 - Embarkation point had minor but observable effects on survival.
+- AUC Score = 0.83 → Good predictive power
+- Logistic Regression proved effective in distinguishing survivors vs non-survivors.
 ## 📊 How to Run
 1. Open the notebook in Jupyter or VSCode.
 2. Make sure `Titanic.csv` is in the same directory.
-3. Run the notebook step by step to see EDA and visualizations.
+3. Run all notebook cells to:
+Preprocess and clean data
+Train Logistic Regression model
+Plot logistic curve and ROC curve
+Evaluate model performance
 ## 📬 Contact
 For suggestions or collaborations, feel free to connect via GitHub.
 
